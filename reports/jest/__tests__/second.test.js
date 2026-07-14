@@ -1,5 +1,6 @@
 test('Timeout test', async () => {
-  await new Promise(resolve => setTimeout(resolve, 1000));
+  // a never-resolving promise to test the timeout
+  await new Promise(() => {});
 }, 1);
 
 test.skip('Skipped test', () => {

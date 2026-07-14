@@ -47,7 +47,7 @@ jobs:
     name: Build & Test
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4     # checkout the repo
+      - uses: actions/checkout@v6     # checkout the repo
       - run: npm ci                   # install packages
       - run: npm test                 # run tests (configured to use jest-junit reporter)
 
@@ -78,10 +78,10 @@ jobs:
   build-test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4         # checkout the repo
+      - uses: actions/checkout@v6         # checkout the repo
       - run: npm ci                       # install packages
       - run: npm test                     # run tests (configured to use jest-junit reporter)
-      - uses: actions/upload-artifact@v4  # upload test results
+      - uses: actions/upload-artifact@v7  # upload test results
         if: ${{ !cancelled() }}           # run this step even if previous step failed
         with:
           name: test-results
@@ -184,6 +184,12 @@ jobs:
     #   none
     list-tests: 'all'
 
+    # Limits which test result files are listed:
+    #   all
+    #   failed
+    #   none
+    list-files: 'all'
+
     # Limits number of created annotations with error message and stack trace captured during test execution.
     # Must be less or equal to 50.
     max-annotations: '10'
@@ -219,6 +225,7 @@ jobs:
 | time       | Test execution time [ms] |
 | url        | Check run URL            |
 | url_html   | Check run URL HTML       |
+| summary_file | Path to a file containing the generated test report summary in Markdown format |
 | slug_prefix| Random anchor links slug prefix generated for the summary headers |
 
 ## Supported formats

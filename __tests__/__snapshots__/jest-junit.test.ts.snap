@@ -172,31 +172,49 @@ TestRunResult {
                 "details": "Error: expect(received).toBeTruthy()
 
 Received: false
-    at Object.<anonymous> (C:\\Users\\Michal\\Workspace\\dorny\\test-check\\reports\\jest\\__tests__\\main.test.js:10:21)
-    at Object.asyncJestTest (C:\\Users\\Michal\\Workspace\\dorny\\test-check\\reports\\jest\\node_modules\\jest-jasmine2\\build\\jasmineAsyncInstall.js:106:37)
-    at C:\\Users\\Michal\\Workspace\\dorny\\test-check\\reports\\jest\\node_modules\\jest-jasmine2\\build\\queueRunner.js:45:12
+    at Object.toBeTruthy (/Users/izso/Developer/test-reporter/reports/jest/__tests__/main.test.js:10:21)
+    at Promise.finally.completed (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-circus/build/jestAdapterInit.js:1561:28)
     at new Promise (<anonymous>)
-    at mapper (C:\\Users\\Michal\\Workspace\\dorny\\test-check\\reports\\jest\\node_modules\\jest-jasmine2\\build\\queueRunner.js:28:19)
-    at C:\\Users\\Michal\\Workspace\\dorny\\test-check\\reports\\jest\\node_modules\\jest-jasmine2\\build\\queueRunner.js:75:41
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+    at callAsyncCircusFn (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-circus/build/jestAdapterInit.js:1501:10)
+    at _callCircusTest (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-circus/build/jestAdapterInit.js:1011:40)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at _runTest (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-circus/build/jestAdapterInit.js:951:3)
+    at /Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-circus/build/jestAdapterInit.js:853:7
+    at _runTestsForDescribeBlock (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-circus/build/jestAdapterInit.js:866:11)
+    at _runTestsForDescribeBlock (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-circus/build/jestAdapterInit.js:861:11)
+    at _runTestsForDescribeBlock (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-circus/build/jestAdapterInit.js:861:11)
+    at run (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-circus/build/jestAdapterInit.js:765:3)
+    at runAndTransformResultsToJestFormat (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-circus/build/jestAdapterInit.js:1993:21)
+    at jestAdapter (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-circus/build/runner.js:111:19)
+    at runTestInternal (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-runner/build/index.js:276:16)
+    at runTest (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-runner/build/index.js:344:7)",
                 "line": 10,
                 "path": "__tests__/main.test.js",
               },
               "name": "Failing test",
               "result": "failed",
-              "time": 2,
+              "time": 1,
             },
             TestCaseResult {
               "error": {
                 "details": "Error: Some error
-    at Object.throwError (C:\\Users\\Michal\\Workspace\\dorny\\test-check\\reports\\jest\\lib\\main.js:2:9)
-    at Object.<anonymous> (C:\\Users\\Michal\\Workspace\\dorny\\test-check\\reports\\jest\\__tests__\\main.test.js:14:11)
-    at Object.asyncJestTest (C:\\Users\\Michal\\Workspace\\dorny\\test-check\\reports\\jest\\node_modules\\jest-jasmine2\\build\\jasmineAsyncInstall.js:106:37)
-    at C:\\Users\\Michal\\Workspace\\dorny\\test-check\\reports\\jest\\node_modules\\jest-jasmine2\\build\\queueRunner.js:45:12
+    at Object.throwError (/Users/izso/Developer/test-reporter/reports/jest/lib/main.js:2:9)
+    at Object.throwError (/Users/izso/Developer/test-reporter/reports/jest/__tests__/main.test.js:14:11)
+    at Promise.finally.completed (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-circus/build/jestAdapterInit.js:1561:28)
     at new Promise (<anonymous>)
-    at mapper (C:\\Users\\Michal\\Workspace\\dorny\\test-check\\reports\\jest\\node_modules\\jest-jasmine2\\build\\queueRunner.js:28:19)
-    at C:\\Users\\Michal\\Workspace\\dorny\\test-check\\reports\\jest\\node_modules\\jest-jasmine2\\build\\queueRunner.js:75:41
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+    at callAsyncCircusFn (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-circus/build/jestAdapterInit.js:1501:10)
+    at _callCircusTest (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-circus/build/jestAdapterInit.js:1011:40)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at _runTest (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-circus/build/jestAdapterInit.js:951:3)
+    at /Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-circus/build/jestAdapterInit.js:853:7
+    at _runTestsForDescribeBlock (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-circus/build/jestAdapterInit.js:866:11)
+    at _runTestsForDescribeBlock (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-circus/build/jestAdapterInit.js:861:11)
+    at _runTestsForDescribeBlock (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-circus/build/jestAdapterInit.js:861:11)
+    at run (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-circus/build/jestAdapterInit.js:765:3)
+    at runAndTransformResultsToJestFormat (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-circus/build/jestAdapterInit.js:1993:21)
+    at jestAdapter (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-circus/build/runner.js:111:19)
+    at runTestInternal (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-runner/build/index.js:276:16)
+    at runTest (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-runner/build/index.js:344:7)",
                 "line": 2,
                 "path": "lib/main.js",
               },
@@ -212,13 +230,21 @@ Received: false
             TestCaseResult {
               "error": {
                 "details": "Error: Some error
-    at Object.<anonymous> (C:\\Users\\Michal\\Workspace\\dorny\\test-check\\reports\\jest\\__tests__\\main.test.js:21:11)
-    at Object.asyncJestTest (C:\\Users\\Michal\\Workspace\\dorny\\test-check\\reports\\jest\\node_modules\\jest-jasmine2\\build\\jasmineAsyncInstall.js:106:37)
-    at C:\\Users\\Michal\\Workspace\\dorny\\test-check\\reports\\jest\\node_modules\\jest-jasmine2\\build\\queueRunner.js:45:12
+    at Object.<anonymous> (/Users/izso/Developer/test-reporter/reports/jest/__tests__/main.test.js:21:11)
+    at Promise.finally.completed (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-circus/build/jestAdapterInit.js:1561:28)
     at new Promise (<anonymous>)
-    at mapper (C:\\Users\\Michal\\Workspace\\dorny\\test-check\\reports\\jest\\node_modules\\jest-jasmine2\\build\\queueRunner.js:28:19)
-    at C:\\Users\\Michal\\Workspace\\dorny\\test-check\\reports\\jest\\node_modules\\jest-jasmine2\\build\\queueRunner.js:75:41
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+    at callAsyncCircusFn (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-circus/build/jestAdapterInit.js:1501:10)
+    at _callCircusTest (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-circus/build/jestAdapterInit.js:1011:40)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at _runTest (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-circus/build/jestAdapterInit.js:951:3)
+    at /Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-circus/build/jestAdapterInit.js:853:7
+    at _runTestsForDescribeBlock (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-circus/build/jestAdapterInit.js:866:11)
+    at _runTestsForDescribeBlock (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-circus/build/jestAdapterInit.js:861:11)
+    at run (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-circus/build/jestAdapterInit.js:765:3)
+    at runAndTransformResultsToJestFormat (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-circus/build/jestAdapterInit.js:1993:21)
+    at jestAdapter (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-circus/build/runner.js:111:19)
+    at runTestInternal (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-runner/build/index.js:276:16)
+    at runTest (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-runner/build/index.js:344:7)",
                 "line": 21,
                 "path": "__tests__/main.test.js",
               },
@@ -229,8 +255,8 @@ Received: false
           ],
         },
       ],
-      "name": "__tests__\\main.test.js",
-      "totalTime": 486,
+      "name": "__tests__/main.test.js",
+      "totalTime": 114,
     },
     TestSuiteResult {
       "groups": [
@@ -239,26 +265,22 @@ Received: false
           "tests": [
             TestCaseResult {
               "error": {
-                "details": ": Timeout - Async callback was not invoked within the 1 ms timeout specified by jest.setTimeout.Timeout - Async callback was not invoked within the 1 ms timeout specified by jest.setTimeout.Error: 
-    at new Spec (C:\\Users\\Michal\\Workspace\\dorny\\test-check\\reports\\jest\\node_modules\\jest-jasmine2\\build\\jasmine\\Spec.js:116:22)
-    at new Spec (C:\\Users\\Michal\\Workspace\\dorny\\test-check\\reports\\jest\\node_modules\\jest-jasmine2\\build\\setup_jest_globals.js:78:9)
-    at specFactory (C:\\Users\\Michal\\Workspace\\dorny\\test-check\\reports\\jest\\node_modules\\jest-jasmine2\\build\\jasmine\\Env.js:523:24)
-    at Env.it (C:\\Users\\Michal\\Workspace\\dorny\\test-check\\reports\\jest\\node_modules\\jest-jasmine2\\build\\jasmine\\Env.js:592:24)
-    at Env.it (C:\\Users\\Michal\\Workspace\\dorny\\test-check\\reports\\jest\\node_modules\\jest-jasmine2\\build\\jasmineAsyncInstall.js:134:23)
-    at it (C:\\Users\\Michal\\Workspace\\dorny\\test-check\\reports\\jest\\node_modules\\jest-jasmine2\\build\\jasmine\\jasmineLight.js:100:21)
-    at Object.<anonymous> (C:\\Users\\Michal\\Workspace\\dorny\\test-check\\reports\\jest\\__tests__\\second.test.js:1:34)
-    at Runtime._execModule (C:\\Users\\Michal\\Workspace\\dorny\\test-check\\reports\\jest\\node_modules\\jest-runtime\\build\\index.js:1245:24)
-    at Runtime._loadModule (C:\\Users\\Michal\\Workspace\\dorny\\test-check\\reports\\jest\\node_modules\\jest-runtime\\build\\index.js:844:12)
-    at Runtime.requireModule (C:\\Users\\Michal\\Workspace\\dorny\\test-check\\reports\\jest\\node_modules\\jest-runtime\\build\\index.js:694:10)
-    at jasmine2 (C:\\Users\\Michal\\Workspace\\dorny\\test-check\\reports\\jest\\node_modules\\jest-jasmine2\\build\\index.js:230:13)
-    at runTestInternal (C:\\Users\\Michal\\Workspace\\dorny\\test-check\\reports\\jest\\node_modules\\jest-runner\\build\\runTest.js:380:22)
-    at runTest (C:\\Users\\Michal\\Workspace\\dorny\\test-check\\reports\\jest\\node_modules\\jest-runner\\build\\runTest.js:472:34)",
+                "details": "Error: thrown: "Exceeded timeout of 1 ms for a test.
+Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout."
+    at Object.test (/Users/izso/Developer/test-reporter/reports/jest/__tests__/second.test.js:1:1)
+    at ModuleExecutor.exec (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-runtime/build/index.js:2078:26)
+    at CjsLoader.loadModule (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-runtime/build/index.js:323:36)
+    at CjsLoader.requireModule (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-runtime/build/index.js:289:12)
+    at Runtime.requireModule (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-runtime/build/index.js:3657:27)
+    at jestAdapter (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-circus/build/runner.js:96:13)
+    at runTestInternal (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-runner/build/index.js:276:16)
+    at runTest (/Users/izso/Developer/test-reporter/reports/jest/node_modules/jest-runner/build/index.js:344:7)",
                 "line": 1,
                 "path": "__tests__/second.test.js",
               },
               "name": "Timeout test",
               "result": "failed",
-              "time": 4,
+              "time": 23,
             },
             TestCaseResult {
               "error": undefined,
@@ -269,11 +291,11 @@ Received: false
           ],
         },
       ],
-      "name": "__tests__\\second.test.js",
-      "totalTime": 82,
+      "name": "__tests__/second.test.js",
+      "totalTime": 41,
     },
   ],
-  "totalTime": 1360,
+  "totalTime": 191,
 }
 `;
 
